@@ -4,8 +4,8 @@ const stopWatch = () =>{
     let countedSec = mySecs.value;
     countedSec++;
     mySecs.value = countedSec;
-    myTimeout = setTimeout(stopWatch, 7.5);
-    if(mySecs.value == 100){
+    myTimeout = setTimeout(stopWatch, 10);
+    if(mySecs.value == 90){
         mySecs.value = 0;
         myMin.value++;
     }
