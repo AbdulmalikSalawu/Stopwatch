@@ -20,7 +20,7 @@ function stopButton(){
 }
 const resetButton = ()=>{
     clearInterval(myTimeout);
-    mySecs.value = 0;
-    myMin.value = 0;
-    myHour.value = 0
+    mySecs.value = "00";
+    myMin.value = "00";
+    myHour.value = "00";
 }
