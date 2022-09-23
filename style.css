@@ -47,7 +47,6 @@ input{
     color: rgb(228, 13, 13) !important;
     font-weight: bold !important;
     border: thin solid rgb(94, 5, 5) !important;
-    
 }
 .btn2:hover{
     border: medium solid red !important;
@@ -76,7 +75,7 @@ button:hover{
 }
 @media screen and (max-width: 600px) {
     body{
-        background-image: url(pexels-anton-makarenko-1078057.jpg);
+        background-image: url('pexels-fwstudio-172276\ \(1\).jpg');
         background-repeat: no-repeat;
         height: 850px;
         overflow-y: hidden;
@@ -93,16 +92,17 @@ button:hover{
     }
     .btn2{
         position: relative;
-        top: -20px;
+        top: -12px;
+        color: rgb(53, 4, 4) !important;
     }
     .smbtn{
-        background-color: rgb(48, 46, 46);
+        background-color: rgb(119, 116, 116);
         border-radius: 9px;
         font-size: 16px;
         position: relative;
-        top: -32px;
-        width: 80px;
-        height: 40px;
+        top: -2px;
+        width: 83px;
+        height: 43px;
     }
     .smbtn:hover{
         background-color: rgb(7, 97, 97);
